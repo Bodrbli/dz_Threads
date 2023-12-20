@@ -25,11 +25,9 @@ public class Functions implements Runnable {
             e.printStackTrace();
         }
     }
-
     @Override
     public void run() {
         String name = Thread.currentThread().getName();
-        //System.out.println(name);
         sortThreads(name);
     }
 }
